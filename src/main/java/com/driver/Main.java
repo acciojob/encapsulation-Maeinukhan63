@@ -6,7 +6,7 @@ public class Main {
     // rw.name="John doe";  // ERROR: name has private access in RWOnly 
     // System.out.println(rw.name);// ERROR : name has private access in RWOnly
 
-    rw.setValue("john doe");
-    System.out.println(rw.getValue());
+    rw.setName("john doe");
+    System.out.println(rw.getName());
   }
 }
